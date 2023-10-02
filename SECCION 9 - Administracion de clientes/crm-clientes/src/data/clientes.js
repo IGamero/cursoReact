@@ -28,3 +28,8 @@ export async function newClient(data) {
         console.log(error)
     }
 }
+
+export async function updateClient(id, data) {
+    console.log(id, data)
+
+} 

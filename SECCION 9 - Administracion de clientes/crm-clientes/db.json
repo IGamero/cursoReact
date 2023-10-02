@@ -34,6 +34,14 @@
       "phone": 1398198938,
       "email": "pedro@mail.com",
       "company": "Ivan Gamero Industries"
+    },
+    {
+      "name": "eqwer",
+      "company": "qwer",
+      "email": "qwer@weqr.es",
+      "phone": "455443212",
+      "notes": "wef",
+      "id": 6
     }
   ]
 }

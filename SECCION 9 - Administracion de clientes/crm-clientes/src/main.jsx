@@ -8,7 +8,10 @@ import ErrorPage from "./components/ErrorPage";
 
 import Index, { loader as clientsLoader } from "./pages/Index";
 import NewClient, { action as newClientAction } from "./pages/NewClient";
-import EditClient, { loader as editClientLoader } from "./pages/EditClient";
+import EditClient, {
+    loader as editClientLoader,
+    action as editClientAction,
+} from "./pages/EditClient";
 
 // createBrowserRouter Permite crear un objeto con todas las rutas
 // RouterProvider sera el componmente origen
@@ -35,6 +38,7 @@ const router = createBrowserRouter([
                 path: "/clients/:clientId/editClient",
                 element: <EditClient />,
                 loader: editClientLoader,
+                action: editClientAction,
                 errorElement: <ErrorPage />,
             },
         ],
